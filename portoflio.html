@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="text-center py-10 bg-gradient-to-r from-blue-500 to-indigo-600 text-white">
+    <img src="photo.jpg" alt="my photo"class="w-32 h-32 mx-auto rounded-full border-4 border-white shadow-lg">
+    <h1 class="text-4xl font-bold mt-4">JOSHNA.C</h1>
+    <p class="text-lg mt-2">A passionate Web Developer | Designer | Programmer</p>
+  </header>
+
+  <!-- About Section -->
+  <section class="max-w-3xl mx-auto my-12 px-4">
+    <h2 class="text-2xl font-semibold mb-4 text-center">About Me</h2>
+    <p class="text-center text-gray-600">
+      Hi, I’m <strong>joshna.c</strong> , computer science
+student .I consider my self a responsible and orderly person.
+I am looking forward improve my skill and enhance the knowledge, responsive websites. 
+      I love transforming ideas into reality using code. I focus on clean design and efficient solutions.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="max-w-4xl mx-auto my-12 px-4">
+    <h2 class="text-2xl font-semibold mb-4 text-center">My Skills</h2>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 text-center">
+      <div class="p-4 bg-white shadow-md rounded-xl">HTML</div>
+      <div class="p-4 bg-white shadow-md rounded-xl">CSS</div>
+      <div class="p-4 bg-white shadow-md rounded-xl">JavaScript</div>
+      <div class="p-4 bg-white shadow-md rounded-xl">Python</div>
+      </div>
+  </section>
+
+  <!-- Resume Download -->
+  <section class="text-center my-12">
+    <a href="https://drive.google.com/file/d/1Dw2v9dZDKDo2McZmDB9et4nzmhRLIJvt/view?usp=drivesdk" download class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg shadow-md transition">
+      Download My Resume
+    </a>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="bg-gray-100 py-10">
+    <h2 class="text-2xl font-semibold mb-6 text-center">Contact Me</h2>
+    <div class="text-center">
+      <p>Email: <a href="mailto:joshnah88@gmail.com" class="text-blue-600 hover:underline">joshnah88@gmail.com</a></p>
+      <p>Phone: <a href="tel:+6381980061" class="text-blue-600 hover:underline">+6381980061</a></p>
+      <div class="flex justify-center gap-6 mt-4">
+        <a href="https://www.linkedin.com/in/joshna-hari-4a369a313" target="_blank" class="text-gray-700 hover:text-black">LinkedIn</a>
+         <a href="https://github.com/joshnah88/Landing-page" target="_blank" class="text-gray-700 hover:text-black">Github</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 text-gray-500 text-sm">
+    &copy; <span id="year"></span> joshna.c. All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
